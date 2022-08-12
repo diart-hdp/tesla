@@ -1,0 +1,55 @@
+<html>
+    <head><title>Tesla Developers</title>
+        <link rel="stylesheet" href="stylee.css">
+        <link rel="icon" href="fotot/logo.png">
+    </head>
+
+
+            
+       
+    
+    <div class="logo-btn">
+        <h1>𝙏𝙚𝙨𝙡𝙖 𝘿𝙚𝙫𝙡𝙤𝙥𝙚𝙧𝙨</h1>     
+        <h1 id="cs"></h1>
+    </div>
+   <!--only admin will login on the main page-->
+
+   <form  name="logs" onsubmit="return mers()">
+    <input type="text" placeholder="Username" name="um"><!--deafult um is diart-->
+    <input type="password" placeholder="Password" name="pw"><!--deafult pw is diarti123 -->
+    <input style="width: 4cm;" type="submit" value="Log as Admin">
+    <p>Only the admin will be able to log in </p>
+</form>
+
+<script>
+    function mers(){
+        var x = document.forms["logs"]["um"].value;
+        if(x == "diart"){
+           document.getElementById('cs').innerHTML = "<h1 style='font-size:50px;'>Riderectiong to Home</h1>";
+           
+            window.location = "home.html";
+            return false;
+        }
+        else{
+            document.getElementById('cs').innerHTML = "<h1 style='font-size:50px;'>Wrong username or password for admin</h1>";
+            return false;
+        }
+        return false;
+        var l = document.forms["logs"]["pw"].value
+        if(l == "diarti123"){
+            window.location = "home.html"
+        }
+        else{
+            document.getElementById('cs').innerHTML = "<h1 style='font-size:50px;'>Wrong Password</h1>";
+        }
+        if(l == "" || l == null){
+            document.getElementById('cs').innerHTML = "<h1 style='font-size:50px;'>no Password</h1>";
+        }
+    }
+    
+</script>
+    <footer> 
+       
+    </footer>
+</html>
+

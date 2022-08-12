@@ -1,0 +1,119 @@
+html{
+    /*pe qes ngit hub oka ta aqes a spo punon ma a pe baj edhe pak bOonja shkronjat e bardha se spo dal loqahtae teqkeksah  tpuo e sbhakru sen */
+    background-size: cover;
+    background-image: url(fotot/allk.jpg);
+    color: white;
+}
+
+.logo-btn{
+    text-align: center;
+    margin-top: 3cm;
+    font-size: 30px;
+}
+
+.logo-btn p{
+    background: rgba(0, 0, 0, 0.336);
+}
+.logo-btn h1{
+    background: rgba(0, 0, 0, 0.425);
+}
+.logo-btn button{
+    width: 6cm;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border:2px solid rgb(136, 8, 8);
+    transition: 0.5s;
+    background: transparent;
+}
+.logo-btn button:hover{
+    background: rgb(172, 68, 8);
+    transition: 0.5s;
+}
+
+footer button{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid red;
+    background: transparent;
+}
+
+nav{
+    display: inline-flex;
+    background: black;
+    width: 100%;
+}
+nav li {
+    list-style: none;
+   
+}
+nav a{
+    position: relative;
+    top: 1cm;
+    color: white;
+    text-decoration: none;
+}
+nav li a{
+    margin-left: 40px;
+    margin-top: 10cm;
+    font-size: 25px;
+}
+
+nav img{width: 2cm;}
+
+
+nav a:hover{
+    color: rgb(172, 68, 8);
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+
+.top-hover{
+    width: 100%;
+    height: 10px;
+    background: black;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    box-shadow: 0 0 50px 10px black;
+}
+
+.underline{
+    width: 100%;
+    margin-top: 20px;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.500);
+    margin-bottom: 30px;
+}
+
+.t-r{
+    text-align: center;
+    color: black;
+}
+
+.t-r img{
+    width: 15cm;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 10px lime, 
+     0 0 50px 20px aqua;
+}
+.t-r p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+::-webkit-scrollbar{
+    background: rgb(161, 79, 11)(134, 81, 37);
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+}
+
+::-webkit-scrollbar-track{
+    background: red;
+}
